@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "shape/blog-grid",
+	"version": "1.0.0",
+	"title": "Shape Blog Grid",
+	"category": "shape-blocks",
+	"description": "Grid of latest blog posts from the design studio.",
+	"supports": {
+		"align": [ "full" ],
+		"spacing": { "margin": true, "padding": true }
+	},
+	"render": "file:./render.php"
+}

@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "shape/hero",
+	"version": "1.0.0",
+	"title": "Shape Hero",
+	"category": "shape-blocks",
+	"description": "Hero section with headline, intro, CTAs, and founder avatar.",
+	"supports": {
+		"align": [ "full" ],
+		"spacing": { "margin": true, "padding": true }
+	},
+	"render": "file:./render.php"
+}

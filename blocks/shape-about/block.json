@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "shape/about",
+	"version": "1.0.0",
+	"title": "Shape About Section",
+	"category": "shape-blocks",
+	"description": "About agency section with cards, stats, and map.",
+	"supports": {
+		"align": [ "full" ],
+		"spacing": { "margin": true, "padding": true }
+	},
+	"render": "file:./render.php"
+}

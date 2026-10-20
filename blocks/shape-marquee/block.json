@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "shape/marquee",
+	"version": "1.0.0",
+	"title": "Shape Marquee",
+	"category": "shape-blocks",
+	"description": "Scrolling text marquee: 'Let's work together.'",
+	"supports": {
+		"align": [ "full" ],
+		"spacing": { "margin": true, "padding": true }
+	},
+	"render": "file:./render.php"
+}

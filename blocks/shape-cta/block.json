@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "shape/cta",
+	"version": "1.0.0",
+	"title": "Shape CTA Break",
+	"category": "shape-blocks",
+	"description": "Centered call-to-action section with heading and button.",
+	"supports": {
+		"align": [ "full" ],
+		"spacing": { "margin": true, "padding": true }
+	},
+	"render": "file:./render.php"
+}

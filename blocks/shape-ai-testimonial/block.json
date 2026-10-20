@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "shape/ai-testimonial",
+	"version": "1.0.0",
+	"title": "Shape AI Testimonial",
+	"category": "shape-blocks",
+	"description": "AI platform quotes section with green pill tabs.",
+	"supports": {
+		"align": [ "full" ],
+		"spacing": { "margin": true, "padding": true }
+	},
+	"render": "file:./render.php"
+}

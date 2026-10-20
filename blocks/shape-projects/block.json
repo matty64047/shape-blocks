@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "shape/projects",
+	"version": "1.0.0",
+	"title": "Shape Projects",
+	"category": "shape-blocks",
+	"description": "Project cards grid with images, tags, and titles.",
+	"supports": {
+		"align": [ "full" ],
+		"spacing": { "margin": true, "padding": true }
+	},
+	"render": "file:./render.php"
+}
