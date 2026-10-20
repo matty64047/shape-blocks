@@ -20,7 +20,7 @@ $blog_posts = [
 		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 			<?php foreach ( $blog_posts as $post ) : ?>
 				<a href="<?php echo esc_url( $post['url'] ); ?>"
-				   class="group block bg-gray-50 dark:bg-gray-800 rounded-2xl lg:rounded-3xl overflow-hidden hover:bg-[#d0ff71] hover:text-black transition">
+				   class="group block bg-gray-50 dark:bg-gray-800 rounded-2xl lg:rounded-3xl overflow-hidden hover:bg-[#a6cc5a] hover:text-black transition">
 					<div class="aspect-[4/3] bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-4xl" aria-hidden="true">
 						📝
 					</div>

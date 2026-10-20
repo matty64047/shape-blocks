@@ -9,7 +9,7 @@
 			Like what<br>you see?
 		</h2>
 		<a href="/project-planner/"
-		   class="inline-flex items-center justify-center bg-[#d0ff71] text-black text-lg font-normal py-3 px-8 rounded-full hover:bg-opacity-80 transition">
+		   class="inline-flex items-center justify-center bg-[#a6cc5a] text-black text-lg font-normal py-3 px-8 rounded-full hover:bg-opacity-80 transition">
 			Start a project
 		</a>
 	</div>

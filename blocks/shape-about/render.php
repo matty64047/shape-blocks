@@ -19,7 +19,7 @@ $about_cards = [
 		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-12">
 			<?php foreach ( $about_cards as $card ) : ?>
 				<a href="<?php echo esc_url( $card['url'] ); ?>"
-				   class="group block bg-gray-50 dark:bg-gray-800 rounded-2xl lg:rounded-3xl p-6 lg:p-8 hover:bg-[#d0ff71] hover:text-black transition">
+				   class="group block bg-gray-50 dark:bg-gray-800 rounded-2xl lg:rounded-3xl p-6 lg:p-8 hover:bg-[#a6cc5a] hover:text-black transition">
 					<div class="text-3xl mb-4" aria-hidden="true"><?php echo esc_html( $card['emoji'] ); ?></div>
 					<h3 class="text-xl font-normal"><?php echo esc_html( $card['title'] ); ?></h3>
 				</a>
@@ -39,7 +39,7 @@ $about_cards = [
 			</div>
 			<div class="flex-shrink-0">
 				<a href="https://www.google.com/maps/place/MadeByShape/@53.5302612,-2.5068987,17z" target="_blank" rel="noopener"
-				   class="text-base font-light text-[#010202] dark:text-white underline hover:text-[#d0ff71] transition">
+				   class="text-base font-light text-[#010202] dark:text-white underline hover:text-[#a6cc5a] transition">
 					📍 View us on Google Maps
 				</a>
 			</div>

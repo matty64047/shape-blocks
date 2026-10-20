@@ -47,7 +47,7 @@ $services = [
 			<?php foreach ( $services as $service ) : ?>
 				<a
 					href="<?php echo esc_url( $service['url'] ); ?>"
-					class="group block bg-gray-50 dark:bg-gray-800 rounded-2xl lg:rounded-3xl p-5 lg:p-6 hover:bg-[#d0ff71] hover:text-black transition"
+					class="group block bg-gray-50 dark:bg-gray-800 rounded-2xl lg:rounded-3xl p-5 lg:p-6 hover:bg-[#a6cc5a] hover:text-black transition"
 				>
 					<h3
 						class="text-xl font-normal mb-2"
@@ -67,7 +67,7 @@ $services = [
 
 		<a
 			href="/services/"
-			class="inline-block text-lg font-normal text-[#010202] dark:text-white hover:text-[#d0ff71] transition"
+			class="inline-block text-lg font-normal text-[#010202] dark:text-white hover:text-[#a6cc5a] transition"
 			style="font-family: 'Oldschool Grotesk', sans-serif;"
 		>
 			View all Services →

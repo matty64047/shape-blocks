@@ -5,7 +5,7 @@
  * Matches the madebyshape.co.uk hero:
  * - H1 72px fw:400 lh:1 tracking:-0.025em
  * - Intro 43.2px (2.7rem) fw:400 lh:1
- * - CTA buttons: green (#d0ff71) and border variant
+ * - CTA buttons: green (#a6cc5a) and border variant
  * - Founder avatar CTA
  */
 ?>
@@ -16,23 +16,23 @@
 		<!-- H1: 72px / 4.5rem, fw:400, lh:1 -->
 		<h1 id="shape-hero-heading" class="text-[3.5rem] lg:text-[4.5rem] leading-none font-normal tracking-[-0.025em] mb-8 max-w-[900px] text-[#010202] dark:text-white">
 			A web design and&nbsp;
-			<a href="/branding/" class="underline underline-offset-[6px] decoration-1 hover:text-[#d0ff71] transition">branding agency</a>
+			<a href="/branding/" class="underline underline-offset-[6px] decoration-1 hover:text-[#a6cc5a] transition">branding agency</a>
 			<br>in Manchester
 		</h1>
 
 		<!-- Intro paragraph: 2.7rem, fw:400 -->
 		<p class="text-[1.7rem] lg:text-[2.7rem] leading-none font-normal max-w-[800px] mb-10 text-[#010202] dark:text-white">
 			An independent
-			<a href="/web-design/" class="underline decoration-1 hover:text-[#d0ff71] transition">web design</a>
+			<a href="/web-design/" class="underline decoration-1 hover:text-[#a6cc5a] transition">web design</a>
 			and
-			<a href="/branding/" class="underline decoration-1 hover:text-[#d0ff71] transition">branding agency</a>
+			<a href="/branding/" class="underline decoration-1 hover:text-[#a6cc5a] transition">branding agency</a>
 			located in Manchester, UK, working with clients from all around the world.
 		</p>
 
 		<!-- CTAs -->
 		<div class="flex flex-wrap items-center gap-4 mb-12">
 			<a href="/project-planner/"
-			   class="inline-flex items-center justify-center bg-[#d0ff71] text-black text-lg font-normal py-3 px-8 rounded-full hover:bg-opacity-80 transition">
+			   class="inline-flex items-center justify-center bg-[#a6cc5a] text-black text-lg font-normal py-3 px-8 rounded-full hover:bg-opacity-80 transition">
 				Start a project
 			</a>
 			<a href="/work/"
